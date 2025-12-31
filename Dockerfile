@@ -10,7 +10,7 @@ COPY requirements.txt .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy all code
+# Copy all code from
 COPY . .
 
 # Expose port (if app runs on streamlit or flask)
